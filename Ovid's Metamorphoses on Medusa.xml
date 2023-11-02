@@ -1110,6 +1110,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Elizabeth-Lyle/CPPE/main/Ovid's%20Metamorphoses%20on%20Medusa.xml?note_annotation_20231102115936205",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-02T11:59:36.205Z",
+	"dcterms:modified": "2023-11-02T11:59:36.205Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Elizabeth-Lyle",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Elizabeth Lyle"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Elizabeth-Lyle/CPPE/main/Ovid's%20Metamorphoses%20on%20Medusa.xml?note_annotation_20231102115936205#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Elizabeth-Lyle/CPPE/main/Ovid's%20Metamorphoses%20on%20Medusa.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Elizabeth-Lyle/CPPE/main/Ovid's%20Metamorphoses%20on%20Medusa.xml?note_annotation_20231102115936205#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/note[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "oa:TextualBody",
+		"dc:format": "text/plain",
+		"rdf:value": "Those who gazed upon Medusa's face were instantly turned to stone - Athena's use of the image in battle was meant to terrify [petrify] her enemies. The image of a gorgon's head was also commonly used as an apotropaic symbol, meant to ward off evil."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1118,7 +1197,7 @@
 
 
 				<head><persName key="Ovid" ref="http://www.wikidata.org/entity/Q7198">Ovid's</persName> <title key="Metamorphoses" ref="http://www.wikidata.org/entity/Q184742"><note type="annotation">Ovid's Metamorphoses is a narrative poem written in the Augustan period of the Roman Empire - the work details the mythological history of the world up until the death and deification of Julius Caesar</note>Metamorphoses</title> on <rs key="Medusa" ref="http://www.wikidata.org/entity/Q160730">Medusa</rs></head>
-<p>Next one of the many princes asked why Medusa, alone among her sisters<note type="annotation">Medusa was one of three Gorgon sisters</note>, had snakes twining in her hair. The guest replied ‘Since what you ask is worth the telling, hear the answer to your question. She was once most beautiful, and the jealous aspiration of many suitors. Of all her beauties none was more admired than her hair: I came across a man who recalled having seen her. They say that <rs key="Neptune" ref="http://www.wikidata.org/entity/Q3954">Neptune</rs>, lord of the seas, violated her<note type="annotation">There is some scholarly debate over the nature of the sexual encounter between Neptune and Medusa, most modern scholars agree that she was raped, while older scholarship often maintains the act was consensual</note> in the temple of <rs key="Minerva" ref="http://www.wikidata.org/entity/Q126916">Minerva<note type="annotation">Though Ovid doesn't detail where Medusa lived, other authors (Hesiod and Aeschylus) write that she was from Sarpedon, near Cisthene.</note></rs>. <rs key="Jupiter" ref="http://www.wikidata.org/entity/Q4649">Jupiter</rs>’s daughter <note type="annotation">[Minerva]</note>turned away, and hid her chaste eyes behind her <rs key="Aegis" ref="http://www.wikidata.org/entity/Q190662">aegis</rs>. So that it might not go unpunished, she changed the <rs key="Gorgon" ref="http://www.wikidata.org/entity/Q61856582">Gorgon’s</rs> hair to foul snakes. And now, to terrify her enemies, numbing them with fear, the goddess wears the snakes, that she created, as a breastplate.</p>
+<p>Next one of the many princes asked why Medusa, alone among her sisters<note type="annotation">Medusa was one of three Gorgon sisters</note>, had snakes twining in her hair. The guest replied ‘Since what you ask is worth the telling, hear the answer to your question. She was once most beautiful, and the jealous aspiration of many suitors. Of all her beauties none was more admired than her hair: I came across a man who recalled having seen her. They say that <rs key="Neptune" ref="http://www.wikidata.org/entity/Q3954">Neptune</rs>, lord of the seas, violated her<note type="annotation">There is some scholarly debate over the nature of the sexual encounter between Neptune and Medusa, most modern scholars agree that she was raped, while older scholarship often maintains the act was consensual</note> in the temple of <rs key="Minerva" ref="http://www.wikidata.org/entity/Q126916">Minerva<note type="annotation">Though Ovid doesn't detail where Medusa lived, other authors (Hesiod and Aeschylus) write that she was from Sarpedon, near Cisthene.</note></rs>. <rs key="Jupiter" ref="http://www.wikidata.org/entity/Q4649">Jupiter</rs>’s daughter <note type="annotation">[Minerva]</note>turned away, and hid her chaste eyes behind her <rs key="Aegis" ref="http://www.wikidata.org/entity/Q190662">aegis</rs>. So that it might not go unpunished, she changed the <rs key="Gorgon" ref="http://www.wikidata.org/entity/Q61856582">Gorgon’s</rs> hair to foul snakes. And now, to terrify her enemies, numbing them with fear<note type="annotation">Those who gazed upon Medusa's face were instantly turned to stone - Athena's use of the image in battle was meant to terrify [petrify] her enemies. The image of a gorgon's head was also commonly used as an apotropaic symbol, meant to ward off evil.</note>, the goddess wears the snakes, that she created, as a breastplate.</p>
 				
 
 
